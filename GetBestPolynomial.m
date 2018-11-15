@@ -1,6 +1,4 @@
-% CSCC11 - Introduction to Machine Learning, Fall 2018, Assignment 1
-% D. Fleet, B. Chan
-%
+
 % [d, trainError, testError] = GetBestPolynomial(xTrain, yTrain, xTest, yTest, h) 
 %
 % This function takes as input a training dataset (xTrain, yTrain), a test 
@@ -24,35 +22,6 @@
 % eTest - 1-column vector of length h containining the total squared error
 %         on test data from fitted polynomials of degree 1 to h 
 %         (in ascending order)
-%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% TO DO: Complete this function so that it computes the 
-%         residual errors of the estimated weights for
-%         multiple polynomial models, as well as the degree 
-%         of the best polynomial model.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% COMPLETE THIS TEXT BOX:
-%
-% Code written by: Derek Chiu
-%
-% Student Name: Derek Chiu
-% Student number: 1003439816	
-% UtorID: chiuder4
-%
-% I hereby certify that the work contained here is my own
-%
-%
-% ________Derek Chiu____________
-% (sign with your name)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 function [d, trainError, testError] = GetBestPolynomial(xTrain, yTrain, xTest, yTest, h) 
   % Replace the code below with your code to compute lowest error and its
@@ -92,4 +61,3 @@ function [d, trainError, testError] = GetBestPolynomial(xTrain, yTrain, xTest, y
   plot(testError, 'b');
   title('The Residual errors of the models on training (red) and testing errors (blue)');
   
-  % TODO: Add any code below

@@ -1,6 +1,4 @@
-% CSCC11 - Introduction to Machine Learning, Fall 2018, Assignment 1
-% D. Fleet, B. Chan
-%
+
 % [y] = EvalPolynomial(w, x)
 %
 % This function evaluates a polynomial with weights w at inputs x 
@@ -14,32 +12,6 @@
 % y - 1-column vector which is predicted by the polynomial model given 
 %     by the estimated weights w and inputs x
 %
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% TO DO: Complete this function so that it evaluates the 
-%         trained polynomial model on the given input values
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% COMPLETE THIS TEXT BOX:
-%
-% Code written by:Derek Chiu
-%
-% Student Name:Derek Chiu
-% Student number:1003439816		
-% UtorID:chiuder4
-%
-% I hereby certify that the work contained here is my own
-%
-%
-% _________Derek Chiu___________
-% (sign with your name)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 function [y] = EvalPolynomial(w, x)
   % Get the amount of rows in the w column vector

@@ -1,6 +1,4 @@
-% CSCC11 - Introduction to Machine Learning, Fall 2018, Assignment 1
-% D. Fleet, B. Chan
-%
+
 % [w] = FitPolynomialRegression(K, x, y)
 %
 % This function finds optimal solves for the weights (and bias) for polynomial 
@@ -17,33 +15,6 @@
 % w - vector of length K+1  with estimated monomial coefficients 
 %     for monomials x^0, x^1, ... , x^K
 %
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% TO DO: Complete this function to set up the regression
-%        problem and solve for the weights w that correspond
-%        to the least-squares estimate that fits the observed
-%        data.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% COMPLETE THIS TEXT BOX:
-%
-% Code written by:Derek Chiu
-%
-% Student Name:Derek Chiu
-% Student number:1003439816	
-% UtorID:chiuder4
-%
-% I hereby certify that the work contained here is my own
-%
-%
-% ________Derek Chiu____________
-% (sign with your name)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 function [w] = FitPolynomialRegression(K, x, y)
